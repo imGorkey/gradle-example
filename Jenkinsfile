@@ -3,12 +3,10 @@ pipeline
 agent any
 tools {
         jdk 'jdk-8'
-		jdk 'JAVA_HOME'
     }
 
     environment {
         JAVA8_HOME = "${tool 'jdk-8'}"
-		JAVA17_HOME = "${tool 'JAVA_HOME'}"
 	}
 stages
 {
