@@ -1,13 +1,6 @@
 pipeline
 {
 agent any
-tools {
-        jdk 'jdk-8'
-    }
-
-    environment {
-        JAVA8_HOME = "${tool 'jdk-8'}"
-		  }
 stages
 {
  stage('scm checkout')
